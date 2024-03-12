@@ -1,0 +1,73 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversão de moeda</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Heebo:wght@100;300;400;500;600&family=Kode+Mono:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="logo-inicio">
+    <a href="./">
+      <img src="./img/Group 25.svg" alt="">
+    </a>
+  </div>
+
+  <nav>
+    <div>
+      <ul class="header-menu">
+        <li><a href="./roteiro.html">Roteiro</a></li>
+        <li><a href="./gastos.html
+          ">Gastos</a></li>
+        <li><a href="./moeda.html
+            ">Moeda</a></li>
+        <li><a href="./tempo.html
+            ">Tempo</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="general">
+    <div class="wrapper">
+      <header>Conversor de moeda</header>
+      <form action="#" class="form-moeda">
+        <div class="amount">
+          <p>Insira um valor</p>
+          <input type="text" value="1">
+        </div>
+
+        <div class="drop-list">
+          <div class="from">
+            <p>De</p>
+            <div class="select-box">
+              <select name="" id="">
+              </select>
+            </div>
+          </div>
+
+          <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+          <div class="to">
+            <p>Para</p>
+            <div class="select-box">
+              <select name="" id="">
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="exchange-rate">Obtendo taxa de câmbio....</div>
+        <button>Obter taxa de câmbio</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="js/modules/moeda-geral.js"></script>
+</body>
+
+</html>
